@@ -1,0 +1,47 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home";
+}
+
+<div class="jumbotron text-center">
+    <h1>Welcome to Your Webshop</h1>
+    <p>Discover our amazing products and deals!</p>
+    <a href="@Url.Action("Index", "Products")" class="btn btn-primary">Shop Now</a>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="category1-image-url" class="card-img-top" alt="Category 1">
+                <div class="card-body">
+                    <h5 class="card-title">Categorie 1</h5>
+                    <p class="card-text">Beschrijving van categorie 1.</p>
+                    <a href="#" class="btn btn-primary">Bekijk producten</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="category2-image-url" class="card-img-top" alt="Category 2">
+                <div class="card-body">
+                    <h5 class="card-title">Categorie 2</h5>
+                    <p class="card-text">Beschrijving van categorie 2.</p>
+                    <a href="#" class="btn btn-primary">Bekijk producten</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="category3-image-url" class="card-img-top" alt="Category 3">
+                <div class="card-body">
+                    <h5 class="card-title">Categorie 3</h5>
+                    <p class="card-text">Beschrijving van categorie 3.</p>
+                    <a href="#" class="btn btn-primary">Bekijk producten</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
